@@ -22,11 +22,16 @@
             <p>Client Name:
                 <input type="text" id="test1" value="">
 
-            <p>Workout Log:
-                <input type="text" id="test1" value="">
-
             <p>Session Date:
                 <input type="text" id="test1" value="">
+
+        <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi"
+        enctype="multipart/form-data" method="post">
+        <p>
+            Upload Log as an Excel File:<br>
+            <input type="file" name="datafile" size="40">
+        </p>
+        </form>
 
         </ul>
 
