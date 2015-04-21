@@ -28,9 +28,8 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
 /****-----start-body----****/
-.bod{
-	background:url("bg.png") repeat;
-	font-family: 'Roboto', sans-serif;
+body{
+	text-align:center;
 
 }
 .wrap{
@@ -87,7 +86,7 @@ span.sub-line{
   top: 26%;
   left: 0%;
   display: inline-block;
-  
+
 }
 .create-account p {
   font-size: 1.1em;
@@ -167,14 +166,14 @@ form {
 	-ms-transition: border-color 0.3s;
 	-moz-transition: border-color 0.3s;
 	-webkit-transition: border-color 0.3s;
-	
+
 }
 .p-container.checkbox i:hover {
 	border-color:red;
-	
+
 }
 .p-container  i:before {
-	background-color: #2da5da;	
+	background-color: #2da5da;
 }
 .p-container  .rating label {
 	color: #ccc;
@@ -251,10 +250,10 @@ margin-top: 3px;
 }
 .p-container .checkbox input:checked + i,
 .p-container . input:checked + i {
-	border-color: #2da5da;	
+	border-color: #2da5da;
 }
 .p-container .rating input:checked ~ label {
-	color: #2da5da;	
+	color: #2da5da;
 }
 
 .p-container .checkbox input:checked + i:after {
@@ -356,7 +355,7 @@ color: #000;
     top: 26%;
     left: 0%;
     display: inline-block;
-    
+
   }
 }
 @media (max-width:1280px){
@@ -474,4 +473,4 @@ color: #000;
   padding: 0.5em 1em;
   font-size:0.9em;
   }
-} 
+}
