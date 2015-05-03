@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <title>Zeus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css">
+    <link rel="stylesheet" href="custom.css">
+    <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+ 
+        <div data-role="header">
+            <h1>Zeus</h1>
+        </div><!-- /header -->
+
+        <div data-role="content">
+            <h2><center>Confirm Your Session</center></h2>
+        </div><!-- /content -->
+
+        <button onclick="myFunction()">Click Here to Confirm Price per Hour</button>
+
+        <p id="demo"></p>
+
+        <script>
+        function myFunction()
+        {
+            var price = prompt("Input the price per hour for PJ Braun:", "");
+    
+            if (price != null)
+            {
+                document.getElementById("demo").innerHTML =
+                "If $" + price + " = $115, click CONFIRM. If not, be aware you are about to be billed $115/hour with PJ Braun if you click CONFIRM";
+            }
+        }
+        </script>
+
+        <center><p>Confirm your training session with PJ Braun on April 13th at 10:00 AM?</p>
+        </center>
+        <a href="clientratingPB.html" data-role="button" data-icon="star" data-theme="b">CONFIRM</a>
+        <a href="clientsearch.html" data-role="button" data-icon="star" data-theme="b">CANCEL</a>
+    </div><!-- /page -->
+
+</body>
+</html>

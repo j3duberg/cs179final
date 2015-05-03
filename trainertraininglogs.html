@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>Zeus</title>
+<title>Zeus</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css">
     <link rel="stylesheet" href="custom.css">
@@ -16,11 +16,28 @@
         </div><!-- /header -->
  
         <div data-role="content">
-            <h2><center>Your Current Calendar!</center></h2>
+            <h2><center>Make Training Logs!</center></h2>
         </div><!-- /content -->
-
-        <img src="https://lh3.googleusercontent.com/1fLFHiN0styGRBRNyOok0ySL0EbBIyCnXxZcfCW6UGL1Lmx6noMFn0ak7pvfGVKigDYUfyWHDcs=s640-h400-e365">
         
+        <ul>
+            <p>Client Name:
+                <input type="text" id="test1" value="">
+
+            <p>Session Date:
+                <input type="text" id="test1" value="">
+
+        <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi"
+        enctype="multipart/form-data" method="post">
+        <p>
+            Upload Log as an Excel File:<br>
+            <input type="file" name="datafile" size="40">
+        </p>
+        </form>
+
+        </ul>
+
+        <a href="trainerdashboard.html" data-role="button" data-icon="star" data-theme="b">Submit</a>
+
         <a href="trainerdashboard.html" data-role="button" data-icon="star" data-theme="b">
             Back to Dashboard</a>
     </div><!-- /page -->

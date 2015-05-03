@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <title>Zeus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css">
+    <link rel="stylesheet" href="custom.css">
+    <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+ 
+        <div data-role="header">
+            <h1>Zeus</h1>
+        </div><!-- /header -->
+ 
+        <div data-role="content">
+            <h2><center>Make your account here!</center></h2>
+        </div><!-- /content -->
+        
+        <ul>
+
+            <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi"
+        enctype="multipart/form-data" method="post">
+        <p>
+            Upload Picture of Yourself:<br>
+            <input type="file" name="datafile" size="40">
+        </p>
+        </form>
+
+            <p>First Name:
+                <input type="text" id="test1" value="">
+            </p>
+
+            <p>Last Name:
+                <input type="text" id="test1" value="">
+            </p>
+
+            <p>Phone:
+                <input type="text" id="test2" value="">
+            </p>
+
+            <p>Email:
+                <input type="text" id="test3" value="">
+            </p>
+
+            <p>Credentials:
+                <input type="text" id="test3" value="">
+            </p>
+
+            <p>Professional Organizations:
+                <input type="text" id="test1" value="">
+            </p>
+
+            <p>Website:
+                <input type="text" id="test2" value="">
+            </p>
+
+            <p>Specialty:
+                <input type="text" id="test3" value="">
+            </p>
+
+            <p>Location(s) Where You Train:
+                <input type="text" id="test3" value="">
+            </p>
+        </ul>
+
+        <a href="trainercreatecalendar.html" data-role="button" data-icon="star" data-theme="b">
+            Register</a>
+    </div><!-- /page -->
+
+</body>
+</html>
